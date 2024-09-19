@@ -16,7 +16,7 @@ body{
 }
 .background{
 background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5));
-background-image: url(background2.jpeg);
+background-color: #242121;
 background-size: contain;
 background-position: center;
 width: 100%;
@@ -42,28 +42,13 @@ header{
 
 }
 .cabeçalho-link a{
-    color: #FFFf;
+    color: #ffffff;
     font-size: 12px;
 }
 
 .cabeçalho-link a :hover{
     color: #eb0f0f;
     transition: 0.3ms all;
-
-}
-
-.logo i{
-    height: 40px;
-    width: 40px;
-    background: transparent;
-    border: 1px solid #eb0f0f;
-    color: #eb0f0f;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 13px;
-    cursor: pointer;
 
 }
 
@@ -85,10 +70,16 @@ button:hover{
 }
 
 .container-text{
-    padding: 300px 0 0 250px;
+    max-width: 700px;
+    margin: 300px 0 0 585px;
+    padding: 20px;
+    background-color: #2b2727;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(15, 15, 15, 0.1);
+    
 }
 .text h3{
-    color: #FFFF;
+    color: #e7e7e7f5;
     font-size: 20px;
 }
 
@@ -116,4 +107,13 @@ button:hover{
 }
 .btn{
     margin-top: 10px;
+}
+
+.logo img {
+    width: 180px; /* Ajuste o tamanho da imagem */
+    height: 230px; /* Mantém a proporção */
+    position: absolute; /* Permite posicionar no canto */
+    top: 30px;
+    left: 30px;
+    border-radius: 15%;
 }
